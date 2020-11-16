@@ -1,0 +1,1150 @@
+@font-face {
+  font-family: "GothaProBla";
+  src: url("./assets/fonts/GothaProBla.woff") format("woff"), url("./assets/fonts/GothaProBla.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProBlaIta";
+  src: url("./assets/fonts/GothaProBlaIta.woff") format("woff"), url("./assets/fonts/GothaProBlaIta.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProBol";
+  src: url("./assets/fonts/GothaProBol.woff") format("woff"), url("./assets/fonts/GothaProBol.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProBolIta";
+  src: url("./assets/fonts/GothaProBolIta.woff") format("woff"), url("./assets/fonts/GothaProBolIta.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProIta";
+  src: url("./assets/fonts/GothaProIta.woff") format("woff"), url("./assets/fonts/GothaProIta.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProLig";
+  src: url("./assets/fonts/GothaProLig.woff") format("woff"), url("./assets/fonts/GothaProLig.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProLigIta";
+  src: url("./assets/fonts/GothaProLigIta.woff") format("woff"), url("./assets/fonts/GothaProLigIta.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProMed";
+  src: url("./assets/fonts/GothaProMed.woff") format("woff"), url("./assets/fonts/GothaProMed.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProMedIta";
+  src: url("./assets/fonts/GothaProMedIta.woff") format("woff"), url("./assets/fonts/GothaProMedIta.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProNarBol";
+  src: url("./assets/fonts/GothaProNarBol.woff") format("woff"), url("./assets/fonts/GothaProNarBol.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProNarMed";
+  src: url("./assets/fonts/GothaProNarMed.woff") format("woff"), url("./assets/fonts/GothaProNarMed.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GothaProReg";
+  src: url("./assets/fonts/GothaProReg.woff") format("woff"), url("./assets/fonts/GothaProReg.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "GothaProLig";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1100px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+
+/*First section*/
+.moto-first-section-wrap {
+  margin: 60px 0;
+}
+
+.moto-column-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 991px) {
+  .moto-column-wrap {
+    flex-direction: column;
+  }
+}
+
+.moto-first-section-column {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+@media only screen and (max-width: 991px) {
+  .moto-first-section-column {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.moto-first-section-column .moto-column-sliders-wrap {
+  display: inline-block;
+  width: 46%;
+  padding: 35px 0 0;
+  margin: 0 47px 0 0;
+}
+@media only screen and (max-width: 767px) {
+  .moto-first-section-column .moto-column-sliders-wrap {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.moto-first-section-column .moto-slider-for {
+  float: right;
+  width: calc(100% - 77px);
+}
+@media only screen and (max-width: 991px) {
+  .moto-first-section-column .moto-slider-for .moto-for-item img {
+    width: 100%;
+  }
+}
+.moto-first-section-column .moto-slider-for .slick-arrow {
+  position: absolute;
+  left: -74px;
+  width: 51px;
+  height: 51px;
+  border: none;
+  font-size: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url("./assets/images/arrow.png");
+  background-size: 22px 24px;
+  background-repeat: no-repeat;
+  background-color: #e6e6e6;
+  background-position: center;
+  outline: none;
+  cursor: pointer;
+}
+.moto-first-section-column .moto-slider-for .slick-prev {
+  top: -65px;
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.moto-first-section-column .moto-slider-for .slick-next {
+  bottom: -65px;
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+@media only screen and (max-width: 767px) {
+  .moto-first-section-column .moto-slider-for {
+    width: 100%;
+    float: initial;
+  }
+  .moto-first-section-column .moto-slider-for .slick-arrow {
+    top: 50%;
+    z-index: 5;
+  }
+  .moto-first-section-column .moto-slider-for .slick-prev {
+    left: 0;
+    -moz-transform: translate(0, -50%) rotate(-180deg);
+    -o-transform: translate(0, -50%) rotate(-180deg);
+    -ms-transform: translate(0, -50%) rotate(-180deg);
+    -webkit-transform: translate(0, -50%) rotate(-180deg);
+    transform: translate(0, -50%) rotate(-180deg);
+  }
+  .moto-first-section-column .moto-slider-for .slick-next {
+    bottom: initial;
+    left: initial;
+    right: 0;
+    -moz-transform: translate(0, -50%) rotate(0);
+    -o-transform: translate(0, -50%) rotate(0);
+    -ms-transform: translate(0, -50%) rotate(0);
+    -webkit-transform: translate(0, -50%) rotate(0);
+    transform: translate(0, -50%) rotate(0);
+  }
+}
+.moto-first-section-column .moto-slider-nav {
+  width: 58px;
+  float: left;
+}
+@media only screen and (max-width: 767px) {
+  .moto-first-section-column .moto-slider-nav {
+    width: 100%;
+    float: initial;
+    margin: 15px 0 0;
+  }
+}
+.moto-first-section-column .moto-nav-item {
+  width: 58px;
+  height: 53px;
+  margin: 0 0 12px;
+}
+.moto-first-section-column .moto-nav-item img {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .moto-first-section-column .moto-nav-item {
+    margin: 0 5px;
+  }
+}
+
+.moto-column-info-wrap {
+  padding: 4px 0 0;
+  width: 54%;
+  margin: -15px 0 0;
+}
+.moto-column-info-wrap .moto-column-info-title {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .moto-column-info-wrap {
+    width: 100%;
+    margin: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+  }
+  .moto-column-info-wrap .moto-column-info-title {
+    display: block;
+    order: 4;
+    margin: 0 0 25px;
+  }
+}
+
+.moto-column-info-title {
+  color: #ef7823;
+  font-size: 21px;
+  font-family: "GothaProReg";
+  margin: 0 0 7px;
+}
+
+.moto-column-info-subtitle {
+  color: #b4b4b4;
+  font-size: 16px;
+  font-family: "GothaProReg";
+  margin: 0 0 24px;
+}
+
+.moto-column-info-buttons-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  position: relative;
+  z-index: 5;
+}
+@media only screen and (max-width: 767px) {
+  .moto-column-info-buttons-wrap {
+    margin: 0;
+  }
+}
+
+.moto-info-button {
+  border: 1px solid #f5b053;
+  background: #f5b053;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 194px;
+  flex-basis: 194px;
+  margin: 0 0 15px 15px;
+  height: 44px;
+  cursor: pointer;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+.moto-info-button span {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "GothaProReg";
+}
+@media only screen and (min-width: 768px) {
+  .moto-info-button:hover {
+    background: #ffffff;
+  }
+  .moto-info-button:hover span {
+    color: #f5b053;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .moto-info-button {
+    max-width: 100%;
+    width: 100%;
+    flex-basis: auto;
+    margin: 0 0 15px;
+  }
+}
+
+.moto-second-column-wrap {
+  width: 100%;
+  padding: 0 0 0 77px;
+  margin: -139px 47px 0 0;
+}
+@media only screen and (max-width: 991px) {
+  .moto-second-column-wrap {
+    margin: 15px 0 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .moto-second-column-wrap {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .moto-second-column-wrap .moto-column-info-title {
+    display: none;
+  }
+}
+
+.moto-second-section-column {
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .moto-second-section-column {
+    width: 100%;
+    margin: 19px 0 0;
+    flex-direction: column;
+  }
+}
+
+.moto-product-name {
+  font-size: 23px;
+  text-align: left;
+  color: #000000;
+  font-family: "GothaProReg";
+}
+@media only screen and (max-width: 767px) {
+  .moto-product-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.moto-product-info-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 47px 0 10px;
+  padding: 0 0 8px;
+  border-bottom: 2px solid #e6e3e3;
+}
+@media only screen and (max-width: 767px) {
+  .moto-product-info-wrap {
+    order: 2;
+  }
+}
+
+.moto-product-price {
+  font-size: 23px;
+  text-align: left;
+  color: #000000;
+  font-family: "GothaProReg";
+  margin: 0 0 0 3px;
+}
+@media only screen and (max-width: 767px) {
+  .moto-product-price {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+.moto-help-info {
+  position: relative;
+  display: inline-block;
+  color: #000000;
+  font-size: 16px;
+  font-family: "GothaProLig";
+  cursor: pointer;
+}
+.moto-help-info:hover .moto-help-info-wrap {
+  opacity: 1;
+  visibility: visible;
+}
+
+.moto-help-info-wrap {
+  position: absolute;
+  bottom: 24px;
+  right: 0;
+  width: 230px;
+  background: #f0f0f0;
+  border-radius: 8px 8px 0 8px;
+  padding: 10px;
+  color: #b4b4b4;
+  font-size: 10px;
+  font-family: "GothaProReg";
+  opacity: 0;
+  visibility: hidden;
+}
+
+.moto-dop-info {
+  text-align: right;
+  color: #b4b4b4;
+  font-size: 14px;
+  font-family: "GothaProLig";
+  margin: 0 0 30px;
+}
+@media only screen and (max-width: 767px) {
+  .moto-dop-info {
+    order: 3;
+  }
+}
+
+.moto-buttons-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 0 5px;
+  margin: 0 0 25px;
+}
+@media only screen and (max-width: 767px) {
+  .moto-buttons-wrap {
+    order: 5;
+    padding: 0;
+  }
+}
+
+.moto-consultation-button {
+  max-width: 246px;
+  width: 100%;
+  border: 1px solid #ef7823;
+  background: #ef7823;
+  height: 45px;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 16px 0 0;
+  cursor: pointer;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+.moto-consultation-button span {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "GothaProReg";
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+@media only screen and (min-width: 992px) {
+  .moto-consultation-button:hover {
+    background: #ffffff;
+  }
+  .moto-consultation-button:hover span {
+    color: #ef7823;
+  }
+}
+
+.moto-button {
+  max-width: 190px;
+  width: 100%;
+  border: 1px solid #ef7823;
+  background: #ffffff;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+.moto-button span {
+  color: #ef7823;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "GothaProReg";
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+@media only screen and (min-width: 992px) {
+  .moto-button:hover {
+    background: #ef7823;
+  }
+  .moto-button:hover span {
+    color: #ffffff;
+  }
+}
+
+.moto-info-link-wrap {
+  margin: 0 0 35px 4px;
+}
+.moto-info-link-wrap .moto-info-link {
+  color: #ef7823;
+  font-size: 14px;
+  margin: 0 12px 0 0;
+  text-decoration: none;
+  position: relative;
+  padding: 0 0 1px;
+}
+.moto-info-link-wrap .moto-info-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #ef7823;
+  -webkit-transition: width 0.2s;
+  -moz-transition: width 0.2s;
+  -ms-transition: width 0.2s;
+  -o-transition: width 0.2s;
+  transition: width 0.2s;
+}
+@media only screen and (min-width: 992px) {
+  .moto-info-link-wrap .moto-info-link:hover:after {
+    width: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .moto-info-link-wrap {
+    order: 4;
+  }
+}
+
+.moto-description-wrap {
+  padding: 10px 0 0 4px;
+  margin: 0;
+  border-top: 2px solid #e6e3e3;
+}
+@media only screen and (max-width: 767px) {
+  .moto-description-wrap {
+    width: 100%;
+    margin: 15px 0 0;
+    padding: 10px 0 0;
+  }
+}
+
+.moto-description-title {
+  color: #dedbdb;
+  font-family: "GothaProReg";
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 0 35px;
+}
+
+.moto-description-table {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.moto-description-table-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.moto-description-table-column:first-child {
+  flex-basis: 208px;
+  padding-right: 18px;
+  margin-right: 18px;
+  border-right: 2px solid #dedbdb;
+}
+.moto-description-table-column:first-child .table-row:first-child {
+  color: #f56701;
+  text-transform: uppercase;
+}
+.moto-description-table-column:first-child .table-row:first-child span:last-child {
+  color: #f56701;
+}
+.moto-description-table-column:first-child .table-row span:last-child {
+  color: #000000;
+}
+.moto-description-table-column:nth-child(2) {
+  padding-right: 18px;
+  margin-right: 18px;
+  border-right: 2px solid #dedbdb;
+}
+.moto-description-table-column:nth-child(3) .table-row {
+  color: #000000;
+}
+.moto-description-table-column .table-row {
+  color: #b4b4b4;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "GothaProReg";
+  justify-content: space-between;
+  margin: 0 0 10px;
+}
+
+/*First section-end*/
+/*First section*/
+.moto-info-section {
+  margin: 0 0 65px;
+}
+@media only screen and (max-width: 991px) {
+  .moto-info-section {
+    margin: 0 0 35px;
+  }
+}
+
+.moto-info-items-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.moto-info-items-wrap .moto-info-item-wrap {
+  width: 23%;
+  position: relative;
+  padding: 0 0 5px;
+}
+@media only screen and (max-width: 991px) {
+  .moto-info-items-wrap {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .moto-info-items-wrap .moto-info-item-wrap {
+    width: 36%;
+    padding: 0 0 5px;
+    margin: 0 40px 20px 0;
+  }
+}
+.moto-info-items-wrap .moto-info-item-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  height: 54px;
+  cursor: pointer;
+}
+.moto-info-items-wrap .moto-info-item-title:hover + .moto-info-item {
+  visibility: visible;
+  opacity: 1;
+}
+.moto-info-items-wrap .moto-info-item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 72px;
+  color: #b4b4b4;
+  font-size: 12px;
+  -webkit-border-radius: 8px 0 8px 8px;
+  -moz-border-radius: 8px 0 8px 8px;
+  -ms-border-radius: 8px 0 8px 8px;
+  border-radius: 8px 0 8px 8px;
+  background: #f0f0f0;
+  padding: 15px 10px 20px;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+}
+.moto-info-items-wrap .moto-info-title {
+  font-family: "GothaProMed";
+  font-size: 13px;
+  color: #b4b4b4;
+  display: block;
+  padding: 0 12px 0 15px;
+  width: 100%;
+  position: relative;
+}
+.moto-info-items-wrap .moto-info-title .moto-title-arrow {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 10px;
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.moto-info-items-wrap .moto-info-title .moto-title-arrow img {
+  width: 10px;
+}
+.moto-info-items-wrap .moto-info-image {
+  width: 100%;
+  max-width: 54px;
+  max-height: 54px;
+  height: auto;
+}
+
+/*First section-end*/
+/*Video section*/
+.moto-video-section-wrap {
+  padding: 20px 0;
+  background: #4b4b4b;
+  margin: 0 0 37px;
+}
+.moto-video-section-wrap .moto-video-wrap {
+  padding: 0 80px;
+}
+.moto-video-section-wrap .moto-video-wrap .slick-arrow {
+  position: absolute;
+  top: 50%;
+  width: 26px;
+  height: 14px;
+  border: none;
+  font-size: 0;
+  background-image: url("./assets/images/arrow-d.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.moto-video-section-wrap .moto-video-wrap .slick-prev {
+  left: 46px;
+  -moz-transform: translate(0, 25%) rotate(90deg);
+  -o-transform: translate(0, 25%) rotate(90deg);
+  -ms-transform: translate(0, 25%) rotate(90deg);
+  -webkit-transform: translate(0, 25%) rotate(90deg);
+  transform: translate(0, 25%) rotate(90deg);
+}
+.moto-video-section-wrap .moto-video-wrap .slick-next {
+  right: 46px;
+  -moz-transform: translate(0, 25%) rotate(-90deg);
+  -o-transform: translate(0, 25%) rotate(-90deg);
+  -ms-transform: translate(0, 25%) rotate(-90deg);
+  -webkit-transform: translate(0, 25%) rotate(-90deg);
+  transform: translate(0, 25%) rotate(-90deg);
+}
+@media only screen and (max-width: 991px) {
+  .moto-video-section-wrap .moto-video-wrap {
+    padding: 0 30px;
+  }
+  .moto-video-section-wrap .moto-video-wrap .slick-prev {
+    left: 0;
+  }
+  .moto-video-section-wrap .moto-video-wrap .slick-next {
+    right: 0;
+  }
+}
+.moto-video-section-wrap .moto-video-item {
+  margin: 0 25px;
+  outline: none;
+}
+.moto-video-section-wrap .moto-video-title {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "GothaProReg";
+  margin: 0 0 20px;
+}
+.moto-video-section-wrap .moto-video img {
+  width: 100%;
+}
+
+/*First section-end*/
+/*First section*/
+.moto-content-section-wrap {
+  margin: 0 0 100px;
+}
+
+.moto-content-title {
+  color: #4b4b4b;
+  font-size: 24px;
+  font-family: "GothaProBla";
+  text-align: center;
+  margin: 0 0 34px;
+}
+
+.moto-final-wrap {
+  padding: 0 30px;
+  margin: 0 0 111px;
+}
+@media only screen and (max-width: 991px) {
+  .moto-final-wrap {
+    padding: 0;
+  }
+}
+
+.moto-table-content {
+  margin: 0 0 6px;
+}
+@media only screen and (max-width: 767px) {
+  .moto-table-content {
+    overflow: scroll;
+  }
+}
+
+.moto-table-item-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 25px;
+  background: #ef7823;
+  width: fit-content;
+  /*@include max-medium {
+    .moto-table-col-1,
+    .moto-table-col-3,
+    .moto-table-col-4,
+    .moto-table-col-5,
+    .moto-table-col-6 {
+      flex-basis: auto;
+    }
+  }*/
+}
+.moto-table-item-header div {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "GothaProReg";
+  padding: 5px 10px 5px 0;
+  margin-right: 10px;
+  border-right: 2px solid #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+}
+.moto-table-item-header div:last-child {
+  padding-right: 0;
+  margin-right: 0;
+  border-right: none;
+}
+.moto-table-item-header .moto-table-col-1 {
+  flex-basis: 155px;
+}
+.moto-table-item-header .moto-table-col-3 {
+  flex-basis: 127px;
+}
+.moto-table-item-header .moto-table-col-4 {
+  flex-basis: 118px;
+}
+.moto-table-item-header .moto-table-col-5 {
+  flex-basis: 104px;
+}
+.moto-table-item-header .moto-table-col-6 {
+  flex-basis: 102px;
+}
+
+.moto-table-more {
+  height: 44px;
+  width: 100%;
+  background: #e6e6e6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moto-table-more img {
+  width: 26px;
+  height: 14px;
+}
+
+.moto-review-sliders-wrap {
+  background: #f5b053;
+  max-width: 728px;
+  margin: -9px auto 86px;
+  padding: 15px;
+}
+.moto-review-sliders-wrap .slick-arrow {
+  position: absolute;
+  top: 50%;
+  width: 59px;
+  height: 59px;
+  border: none;
+  font-size: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url("./assets/images/arrow.png");
+  background-size: 22px 24px;
+  background-repeat: no-repeat;
+  background-color: #e6e6e6;
+  background-position: center;
+  outline: none;
+  cursor: pointer;
+}
+.moto-review-sliders-wrap .slick-prev {
+  left: -96px;
+  -moz-transform: translate(0, 26%) rotate(-180deg);
+  -o-transform: translate(0, 26%) rotate(-180deg);
+  -ms-transform: translate(0, 26%) rotate(-180deg);
+  -webkit-transform: translate(0, 26%) rotate(-180deg);
+  transform: translate(0, 26%) rotate(-180deg);
+}
+.moto-review-sliders-wrap .slick-next {
+  right: -96px;
+  -moz-transform: translate(0, 26%);
+  -o-transform: translate(0, 26%);
+  -ms-transform: translate(0, 26%);
+  -webkit-transform: translate(0, 26%);
+  transform: translate(0, 26%);
+}
+.moto-review-sliders-wrap .moto-review-slider-nav .slick-arrow {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .moto-review-sliders-wrap {
+    max-width: 88%;
+  }
+  .moto-review-sliders-wrap .slick-prev {
+    left: -80px;
+  }
+  .moto-review-sliders-wrap .slick-next {
+    right: -80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .moto-review-sliders-wrap .slick-arrow {
+    z-index: 5;
+  }
+  .moto-review-sliders-wrap .slick-prev {
+    left: -45px;
+  }
+  .moto-review-sliders-wrap .slick-next {
+    right: -45px;
+  }
+}
+
+.moto-review-slider-for .moto-for-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 767px) {
+  .moto-review-slider-for .moto-for-item {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+.moto-review-slider-for .moto-review-text {
+  width: 210px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 0 3px;
+}
+.moto-review-slider-for .moto-review-text .moto-quot {
+  max-width: 45px;
+}
+.moto-review-slider-for .moto-review-text .moto-quot img {
+  max-width: 45px;
+  width: 100%;
+}
+.moto-review-slider-for .moto-review-text .moto-review {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "GothaProReg";
+  margin: 20px 0 0;
+  line-height: 2;
+}
+.moto-review-slider-for .moto-review-image {
+  width: calc(100% - 225px);
+  height: 270px;
+}
+.moto-review-slider-for .moto-review-image img {
+  width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .moto-review-slider-for .moto-review-image {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .moto-review-slider-for .moto-review-text {
+    width: 100%;
+  }
+  .moto-review-slider-for .moto-review-image {
+    width: 100%;
+  }
+}
+
+.moto-review-slider-nav {
+  width: calc(100% - 225px);
+  margin: 10px 0 0 223px;
+}
+.moto-review-slider-nav .moto-nav-item {
+  width: 20%;
+  max-width: 86px;
+  max-height: 80px;
+  height: 80px;
+  margin: 0 7px;
+}
+.moto-review-slider-nav .moto-nav-item img {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .moto-review-slider-nav {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+}
+
+.moto-models-wrap {
+  column-count: 4;
+  margin: 0 0 0 -40px;
+}
+.moto-models-wrap .moto-mode-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 0 14px 25px;
+  border-bottom: 2px dotted #b4b4b4;
+}
+.moto-models-wrap .moto-mode-item span {
+  color: #b4b4b4;
+  font-size: 17px;
+  font-family: "GothaProReg";
+  background: #ffffff;
+  margin: 0 0 -5px;
+  padding: 0 1px;
+}
+.moto-models-wrap .moto-mode-item.moto-hidden {
+  display: none;
+}
+.moto-models-wrap .moto-more-link {
+  cursor: pointer;
+}
+@media only screen and (max-width: 991px) {
+  .moto-models-wrap {
+    column-count: 2;
+    margin: 0 0 0 -15px;
+  }
+  .moto-models-wrap .moto-mode-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 0 14px 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .moto-models-wrap {
+    column-count: 1;
+  }
+}
+
+/*First section-end*/
+
+/*# sourceMappingURL=style.css.map */
